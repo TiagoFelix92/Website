@@ -671,4 +671,11 @@ box-shadow: 0 0 25px transparent;
     .skills-content h6 {
         font-size: 1.4rem;
     }
+    
+}
+@media (max-width: 768px) {
+    .about-content {
+        padding-left: 10%;
+        text-align: left; 
+    }
 }
