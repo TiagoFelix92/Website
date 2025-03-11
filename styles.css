@@ -675,7 +675,17 @@ box-shadow: 0 0 25px transparent;
 }
 @media (max-width: 768px) {
     .about-content {
-        padding-left: 40%;
+        padding-left: 45%; 
+        padding-right: 5%; 
         text-align: left; 
+        word-wrap: break-word; 
+    }
+
+    .about-content h2 {
+        font-size: 5rem; 
+    }
+
+    .about-content p {
+        font-size: 1.4rem; 
     }
 }
