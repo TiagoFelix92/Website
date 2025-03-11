@@ -675,7 +675,7 @@ box-shadow: 0 0 25px transparent;
 }
 @media (max-width: 768px) {
     .about-content {
-        padding-left: 10%;
+        padding-left: 40%;
         text-align: left; 
     }
 }
