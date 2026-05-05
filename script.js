@@ -7,13 +7,7 @@ document.querySelectorAll('.menu-link').forEach(link => {
         document.querySelector(this.getAttribute('href')).classList.remove('hidden');
     });
 });
-document.getElementById('download-cv').addEventListener('click', function() {
-    const link = document.createElement('a');
-     link.href = 'TiagoCV.pdf?v=2'; 
-    link.download = 'curriculo_tiago_goncalves.pdf'; 
-    link.click();
-    document.body.removeChild(link);
-});
+
 
 document.getElementById('read-more').addEventListener('click', function(event) {
     event.preventDefault();
